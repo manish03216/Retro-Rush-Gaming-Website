@@ -1,0 +1,2 @@
+* IN package.json file "start": "nodemon index.js"  this line work when we run npm start it run index.js on nodemon
+  this is make our work more easier.

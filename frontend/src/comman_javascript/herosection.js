@@ -32,7 +32,7 @@ prevButton.addEventListener('click', function() {
 // Auto-slide every 5 seconds
 let slideInterval = setInterval(function() {
     nextButton.click();
-}, 20000);
+}, 5000);
 
 // Show the first slide initially
 showSlide(currentIndex);

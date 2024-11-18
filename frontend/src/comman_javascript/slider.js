@@ -27,3 +27,6 @@ const swiper = new Swiper('.mySwiper', {
         },
     }
 });
+setInterval(() => {
+    swiper.slideNext();
+}, 3000); // Change slide every 3 seconds
